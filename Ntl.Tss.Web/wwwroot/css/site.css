@@ -1,0 +1,241 @@
+﻿.navbar-header {
+    position: relative;
+    top: -4px;
+}
+
+.navbar-brand>.icon-banner {
+    position: relative;
+    top: -2px;
+    display: inline;
+}
+
+.container.body-content {
+    padding-top: 70px;
+}
+
+.icon {
+    position: relative;
+    top: -10px;
+}
+
+.logged-out iframe {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+.page-consent .client-logo {
+    float: left;
+}
+
+.page-consent .client-logo img {
+    width: 80px;
+    height: 80px;
+}
+
+.page-consent .consent-buttons {
+    margin-top: 25px;
+}
+
+.page-consent .consent-form .consent-scopecheck {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.page-consent .consent-form .consent-description {
+    margin-left: 25px;
+}
+
+.page-consent .consent-form .consent-description label {
+    font-weight: normal;
+}
+
+.page-consent .consent-form .consent-remember {
+    padding-left: 16px;
+}
+
+.grants .page-header {
+    margin-bottom: 10px;
+}
+
+.grants .grant {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.grants .grant img {
+    width: 100px;
+    height: 100px;
+}
+
+.grants .grant .clientname {
+    font-size: 140%;
+    font-weight: bold;
+}
+
+.grants .grant .granttype {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.grants .grant .created {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.grants .grant .expires {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.grants .grant li {
+    list-style-type: none;
+    display: inline;
+}
+
+.grants .grant li:after {
+    content: ', ';
+}
+
+.grants .grant li:last-child:after {
+    content: '';
+}
+
+
+/* Login */
+
+.loginform-container {
+    width: 100%;
+    margin: auto;
+    display: table;
+    min-height: 100vh;
+}
+
+.loginform-left {
+    background: #f1f4f8;
+    width: 50%;
+    display: table-cell;
+}
+
+.loginbox {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 484px;
+    position: relative;
+    padding: 22px 45px;
+    position: relative;
+}
+
+.logo-section {
+    text-align: center;
+}
+
+.content-section {
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    background: #fff;
+    padding: 2px 16px;
+    margin-top: 30px;
+}
+
+.loginbox h3 {
+    color: #616263;
+    font-size: 24px;
+    padding: 10px 0;
+}
+
+.loginbox h4,
+.loginbox h1 {
+    color: #616263;
+    font-size: 20px;
+    padding: 10px 0px 10px 0px;
+}
+
+.form-group label {
+    color: #616263;
+}
+
+.form-group {
+    position: relative;
+}
+
+.form-group img {
+    position: absolute;
+    right: 12px;
+    top: 9px;
+    width: 25px;
+}
+
+.forgotpass {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.forgotpass a {
+    text-decoration: none;
+    color: #3c7cc7;
+}
+
+.loginbox input.form-control {
+    padding: 15px;
+    height: 44px;
+    border: 1px solid #a0b3c9;
+    margin-bottom: 25px;
+}
+
+.text-center button,
+.loginbox button.btn-primary {
+    border-radius: 5px;
+    padding: 10px 40px;
+    height: 44px;
+    width: 100%;
+    border: none;
+    font-weight: bold;
+}
+
+.text-center button.btn.btn-primary {
+    background-color: #008493;
+}
+
+.login-footer {
+    text-align: center;
+    margin-top: 25px;
+    color: #494a4b;
+    font-weight: bold;
+}
+
+.loginbox {
+    min-height: calc(100vh);
+}
+
+.loginbox p {
+    padding: 0px 78px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.loginform-right {
+    background: #0099a9;
+    text-align: center;
+    display: table-cell;
+    width: 50%;
+    padding: 0 30px;
+}
+
+.loginform-right h2 {
+    color: #d9a326;
+    font-weight: bold;
+    font-size: 45px;
+    padding-top: 36px;
+}
+
+.loginform-right h4 {
+    color: #fff;
+    font-size: 31px;
+}
+
+.video-section iframe {
+    max-width: 540px;
+    padding-top: 24px;
+}
